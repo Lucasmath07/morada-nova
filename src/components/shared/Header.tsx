@@ -1,20 +1,23 @@
+import "@/src/styles/global.css";
+
 export function Header() {
   return (
-    <nav className="bg-color-background fixed w-full z-20 top-0 start-0 border-b border-default">
+    <nav className="bg-brand-foreground fixed w-full z-20 top-0 start-0 border-b border-default">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-7"
-            alt="Flowbite Logo"
+            src="logo.webp"
+            className="h-10 border rounded-2xl"
+            alt="AEC Morada Nova Logo"
           />
           <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">
-            Flowbite
+            A.E.C. MORADA NOVA
           </span>
         </a>
+
         <button
           data-collapse-toggle="navbar-solid"
           type="button"
@@ -22,7 +25,7 @@ export function Header() {
           aria-controls="navbar-solid"
           aria-expanded="false"
         >
-          <span className="sr-only">Open main menu</span>
+          <span className="sr-only">Abrir menu principal</span>
           <svg
             className="w-6 h-6"
             aria-hidden="true"
@@ -34,53 +37,49 @@ export function Header() {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M5 7h14M5 12h14M5 17h14"
             />
           </svg>
         </button>
+
         <div className="hidden w-full md:block md:w-auto" id="navbar-solid">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-secondary-soft">
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                className="block py-2 px-3 bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0 md:relative md:after:content-[''] md:after:absolute md:after:-bottom-1 md:after:left-0 md:after:w-full md:after:h-[2px] md:after:bg-brand md:after:scale-x-100 md:after:transition-transform md:after:duration-300 md:after:origin-left"
                 aria-current="page"
               >
-                Home
+                Início
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:relative md:after:content-[''] md:after:absolute md:after:-bottom-1 md:after:left-0 md:after:w-full md:after:h-[2px] md:after:bg-brand md:after:scale-x-0 md:hover:after:scale-x-100 md:after:transition-transform md:after:duration-300 md:after:origin-left"
               >
-                About
+                História
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:relative md:after:content-[''] md:after:absolute md:after:-bottom-1 md:after:left-0 md:after:w-full md:after:h-[2px] md:after:bg-brand md:after:scale-x-0 md:hover:after:scale-x-100 md:after:transition-transform md:after:duration-300 md:after:origin-left"
+              >
+                Contato
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                className="bg-brand text-brand-foreground p-2 rounded-2xl"
+                
               >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >
-                Contact
+                Apoiar
               </a>
             </li>
           </ul>
