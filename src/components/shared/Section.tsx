@@ -5,14 +5,17 @@ export interface SectionProps extends React.ComponentProps<"section"> {
 }
 
 export function Section({
-  className,
-  containerClassName,
+  className = "",
+  containerClassName = "",
   children,
   ...props
 }: SectionProps) {
   return (
-    <section className={`"py-20" ${className}`} {...props}>
-      <Container className={`mx-auto w-full max-w-7xl px-6 lg:px-16 ${containerClassName}`}>
+    
+    <section className={`py-20 w-full ${className}`} {...props}>
+      <Container
+        className={`mx-auto w-full max-w-7xl px-6 lg:px-16 ${containerClassName}`}
+      >
         {children}
       </Container>
     </section>

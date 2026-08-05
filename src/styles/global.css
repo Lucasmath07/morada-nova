@@ -28,8 +28,11 @@
   --color-border: hsl(0 0% 90%);
 
   /* Cores Principais (Brand) */
-  --color-brand: hsl(222 72% 50%); /* Azul */
+  --color-brand: hsl(218, 83%, 30%);
   --color-brand-foreground: hsl(0 0% 98%);
+
+  --color-footer: hsl(218, 83%, 20%);
+  --color-footerTitle:hsl(141, 88%, 50%);
 
   --color-secondary: #009a44; /* Verde */
   --color-secondary-foreground: hsl(0 0% 100%);
