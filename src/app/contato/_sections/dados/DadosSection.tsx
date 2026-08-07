@@ -16,7 +16,7 @@ const FORM_SECTION_DATA: DataItem[] = [
   },
   {
     id: "historia",
-    value: "15",
+    value: "14",
     label: "ANOS DE HISTÓRIA",
     colorClass: "text-secondary",
   },
