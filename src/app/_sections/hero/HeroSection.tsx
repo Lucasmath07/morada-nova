@@ -18,12 +18,12 @@ export function HeroSection() {
           Cultural Morada Nova é um projeto social dedicado ao desenvolvimento
           de jovens e adolescentes, formando atletas e cidadãos para o futuro.
         </p>
-        <div className="flex items-center gap-3">
+      {/*  <div className="flex items-center gap-3">
           <Button variant="solidTwo">CONHEÇA O PROJETO</Button>
           <Button variant="outline">
             SEJA UM APOIADOR
           </Button>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

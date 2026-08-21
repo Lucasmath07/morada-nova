@@ -1,13 +1,13 @@
 import { Section } from "@/src/components/shared/Section"
 import Image from "next/image";
 
-// 1. Array com os dados da Associação (facilita a manutenção)
+
 const marcos = [
   {
     year: "98",
     title: "O SURGIMENTO",
     description: "Fundação oficial da AECMN como projeto comunitário.",
-    image: "/historia/surgimento.jpg", // Troque pelo caminho real da sua imagem na pasta public
+    image: "/historia/surgimento.jpg", 
     isGreen: true,
   },
   {

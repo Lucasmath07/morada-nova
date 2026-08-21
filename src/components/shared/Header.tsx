@@ -9,7 +9,7 @@ const navLinks = [
   { name: "História", path: "/historia" },
   { name: "Contato", path: "/contato" },
   { name: "Notícias", path: "/noticias" },
-  { name: "Categorias", path:"/categorias" },
+  //{ name: "Categorias", path:"/categorias" },
 ];
 
 export function Header() {
