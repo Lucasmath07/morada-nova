@@ -2,11 +2,11 @@
 
 Site institucional desenvolvido para a **Associação Esportiva e Cultural Morada Nova**, um projeto social que transforma a vida de jovens através do esporte. O site apresenta a missão da associação, sua história e formas de apoio à comunidade.
 
-> 🔗 **[Acesse o projeto online aqui](<COLOQUE_O_LINK_DO_DEPLOY_AQUI>)**
+> 🔗 **[Acesse o projeto online aqui](https://a4b02b80.morada-nova.pages.dev)**
 
 ## 💻 Sobre o Projeto
 
-Este projeto foi desenvolvido para dar uma presença digital profissional a uma associação esportiva social real, a A.E.C. Morada Nova, que forma atletas e cidadãos através do futebol. O objetivo era criar um site que contasse a história da instituição de forma acolhedora e incentivasse doações e apoio à causa, com uma interface moderna, responsiva e de carregamento rápido.
+Este projeto foi desenvolvido para dar uma presença digital profissional a uma associação esportiva social real, a A.E.C. Morada Nova, que forma atletas e cidadãos através do futebol. O objetivo era criar um site que contasse a história da instituição de forma acolhedora e incentivasse doações e apoio à causa, com uma interface moderna, responsiva e de carregamento rápido. No momento o site está quase finalizado, estamos aguardando os últimos envios de imagens e vídeos.
 
 Entre os principais desafios técnicos estiveram:
 - Construir um **hero em tela cheia** com overlay de cor sobre a imagem, mantendo boa legibilidade do texto em qualquer tamanho de tela;
