@@ -60,5 +60,5 @@ npm run dev
 ## 📬 Contato
 
 Desenvolvido por **Lucas Rocha**
-* [LinkedIn](https://www.linkedin.com/in/lucas-rocha-291155355)
-* [Portfólio](<COLOQUE_O_LINK_DO_SEU_PORTFOLIO_AQUI>)
+* [LinkedIn](https://www.linkedin.com/in/lucas-matheus-rocha/)
+* [Portfólio](https://portfolio-astro-5c4.pages.dev/)
