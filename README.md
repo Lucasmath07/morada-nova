@@ -1,4 +1,4 @@
-# 🚀 A.E.C. Morada Nova
+# ⚽ A.E.C. Morada Nova
 
 Site institucional desenvolvido para a **Associação Esportiva e Cultural Morada Nova**, um projeto social que transforma a vida de jovens através do esporte. O site apresenta a missão da associação, sua história e formas de apoio à comunidade.
 
